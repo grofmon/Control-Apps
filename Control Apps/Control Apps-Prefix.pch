@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Control Apps' target in the 'Control Apps' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
