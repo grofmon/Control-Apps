@@ -12,8 +12,9 @@
 		F120E76316116A3F00C75D3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F120E76116116A3F00C75D3A /* InfoPlist.strings */; };
 		F120E76516116A3F00C75D3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F120E76416116A3F00C75D3A /* main.m */; };
 		F120E76916116A3F00C75D3A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F120E76716116A3F00C75D3A /* Credits.rtf */; };
-		F120E76B16116A3F00C75D3A /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = F120E76A16116A3F00C75D3A /* AppDelegate.applescript */; };
+		F120E76B16116A3F00C75D3A /* Control Apps.applescript in Sources */ = {isa = PBXBuildFile; fileRef = F120E76A16116A3F00C75D3A /* Control Apps.applescript */; };
 		F120E76E16116A4000C75D3A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F120E76C16116A4000C75D3A /* MainMenu.xib */; };
+		F120E77516116CDF00C75D3A /* Control Apps.icns in Resources */ = {isa = PBXBuildFile; fileRef = F120E77416116CDF00C75D3A /* Control Apps.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +29,9 @@
 		F120E76416116A3F00C75D3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F120E76616116A3F00C75D3A /* Control Apps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Control Apps-Prefix.pch"; sourceTree = "<group>"; };
 		F120E76816116A3F00C75D3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		F120E76A16116A3F00C75D3A /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		F120E76A16116A3F00C75D3A /* Control Apps.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = "Control Apps.applescript"; sourceTree = "<group>"; };
 		F120E76D16116A4000C75D3A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F120E77416116CDF00C75D3A /* Control Apps.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Control Apps.icns"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 		F120E74716116A3F00C75D3A = {
 			isa = PBXGroup;
 			children = (
+				F120E77416116CDF00C75D3A /* Control Apps.icns */,
 				F120E75E16116A3F00C75D3A /* Control Apps */,
 				F120E75516116A3F00C75D3A /* Frameworks */,
 				F120E75316116A3F00C75D3A /* Products */,
@@ -85,7 +88,7 @@
 		F120E75E16116A3F00C75D3A /* Control Apps */ = {
 			isa = PBXGroup;
 			children = (
-				F120E76A16116A3F00C75D3A /* AppDelegate.applescript */,
+				F120E76A16116A3F00C75D3A /* Control Apps.applescript */,
 				F120E76C16116A4000C75D3A /* MainMenu.xib */,
 				F120E75F16116A3F00C75D3A /* Supporting Files */,
 			);
@@ -158,6 +161,7 @@
 				F120E76316116A3F00C75D3A /* InfoPlist.strings in Resources */,
 				F120E76916116A3F00C75D3A /* Credits.rtf in Resources */,
 				F120E76E16116A4000C75D3A /* MainMenu.xib in Resources */,
+				F120E77516116CDF00C75D3A /* Control Apps.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,7 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F120E76516116A3F00C75D3A /* main.m in Sources */,
-				F120E76B16116A3F00C75D3A /* AppDelegate.applescript in Sources */,
+				F120E76B16116A3F00C75D3A /* Control Apps.applescript in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
